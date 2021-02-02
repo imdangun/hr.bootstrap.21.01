@@ -45,7 +45,20 @@
 
 		<div class='row mb-3'>
 			<div class='col'>
-				<input type='text' class='form-control' placeholder='사용자명'>	
+				<div class='form-group row'>
+					<label class='col-4 col-form-label'>사원명: </label>
+					<div class='col'>
+						<input type='text' class='form-control' name='empName'>	
+					</div>
+				</div>
+			</div>
+			<div class='col'>
+				<div class='form-group row'>
+					<label class='col-4 col-form-label'>입사일: </label>
+					<div class='col'>
+						<input type='date' class='form-control' name='hireDate'>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class='row'>
@@ -53,7 +66,7 @@
 				<table class='table justify-content-around'>
 					<thead>
 						<tr>
-							<th>번호</th>
+							<th>사번</th>
 							<th>이름</th>
 							<th>등록일</th>
 						</tr>
